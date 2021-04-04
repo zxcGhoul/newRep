@@ -110,14 +110,14 @@
 
 ///  При изпользовании true or false мы можем сократить код. isReady ? alert('Всё готово!') : alert('Всё не готово!')
 
-// function pow2() {
-//     var x = document.getElementById('inp1').value;
-//     if (x > 0) {
-//         document.getElementById('out').innerHTML = 'Положительное число';
-//     } else {
-//         document.getElementById('out').innerHTML = 'Отрицательное число';
-//     }
-// }
+function pow2() {
+    var x = document.getElementById('inp1').value;
+    if (x > 0) {
+        document.getElementById('out').innerHTML = 'Положительное число';
+    } else {
+        document.getElementById('out').innerHTML = 'Отрицательное число';
+    }
+}
 
 // Уровень доступа
 
